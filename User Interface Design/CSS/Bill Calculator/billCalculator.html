@@ -4,7 +4,12 @@
     <script>
         function calculateEMI(event) {
             event.preventDefault();
-            gith
+            var price = 0, qty = 0;
+            price = document.getElementById("price").value;
+            qty = document.getElementById("quantity").value;
+            document.getElementById("totalPrice").innerHTML = price * qty;
+            return false;
+        }
     </script>
 </head>
 <body>
