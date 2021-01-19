@@ -31,7 +31,7 @@ public class Placement {
         }
 
         if (containsMinusValue) {
-            System.out.println("Input is Invalid ");
+            System.out.println("Input is Invalid");
             return;
         }
 
@@ -44,6 +44,5 @@ public class Placement {
         for (String highestPlacementDepartment : getKeysBasedOnValue(branchPlacementMap, maxValue)) {
             System.out.println(highestPlacementDepartment);
         }
-
     }
 }
