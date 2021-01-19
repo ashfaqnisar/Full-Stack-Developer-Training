@@ -48,8 +48,7 @@ class Account {
 
     public boolean withdraw(int amount) {
         if (balance >= amount) {
-            balance -= amount;
-            System.out.println("Balance amount after withdraw: " + balance);
+            System.out.println("Balance amount after withdraw: " + (getBalance() - amount));
             return true;
         }
         System.out.println("Sorry!!! No enough balance");
@@ -93,6 +92,7 @@ public class AccountDetails {
 
     public static void main(String[] args) {
         Account account = getAccountDetails();
-        account.withdraw(getWithdrawAmount());
+        int withdrawAmount = getWithdrawAmount();
+        account.withdraw(withdrawAmount);
     }
 }
