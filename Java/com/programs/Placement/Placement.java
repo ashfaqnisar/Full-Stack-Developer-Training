@@ -1,3 +1,5 @@
+package com.programs.Placement;
+
 import java.util.*;
 
 public class Placement {
@@ -40,7 +42,7 @@ public class Placement {
             return;
         }
 
-        System.out.println("Highest Placement");
+        System.out.println("Highest com.programs.Placement.com.programs.Placement");
         for (String highestPlacementDepartment : getKeysBasedOnValue(branchPlacementMap, maxValue)) {
             System.out.println(highestPlacementDepartment);
         }

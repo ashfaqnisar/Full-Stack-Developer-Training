@@ -1,3 +1,5 @@
+package com.programs.LeastOffer;
+
 import java.util.Scanner;
 
 class Product {
@@ -20,7 +22,7 @@ class Product {
     }
 }
 
-public class LeastOffer {
+public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -28,7 +30,7 @@ public class LeastOffer {
         int n = 0, worstPrice = 0;
 
         n = sc.nextInt();
-        Product[] productItems = new Product[n]; //Product Array with the length of the input.
+        Product[] productItems = new Product[n]; //com.programs.LeastOffer.Product Array with the length of the input.
 
         for (int i = 0; i < n; i++) {
             String input = sc.next(); //Take the input

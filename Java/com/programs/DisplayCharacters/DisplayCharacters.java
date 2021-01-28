@@ -1,3 +1,5 @@
+package com.programs.DisplayCharacters;
+
 import java.util.LinkedHashMap;
 import java.util.Scanner;
 

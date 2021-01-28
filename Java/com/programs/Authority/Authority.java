@@ -1,3 +1,5 @@
+package com.programs.Authority;
+
 import java.util.Scanner;
 
 public class Authority {

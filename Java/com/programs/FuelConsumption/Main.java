@@ -1,6 +1,8 @@
+package com.programs.FuelConsumption;
+
 import java.util.Scanner;
 
-public class FuelConsumption {
+public class Main {
     public static void main(String[] args) {
         double fuelInLiters = 0, fuelInGallons, distanceInMiles, distanceInKMS = 0;
         Scanner sc = new Scanner(System.in);

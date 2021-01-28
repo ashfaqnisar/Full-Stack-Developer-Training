@@ -1,6 +1,8 @@
+package com.programs.Ticket;
+
 import java.util.Scanner;
 
-public class TicketMain {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int bookings = 0, availableTickets = 0;

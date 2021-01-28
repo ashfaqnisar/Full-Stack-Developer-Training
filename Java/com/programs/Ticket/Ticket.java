@@ -1,3 +1,5 @@
+package com.programs.Ticket;
+
 public class Ticket {
     private int ticketid, price;
     private static int availableTickets;

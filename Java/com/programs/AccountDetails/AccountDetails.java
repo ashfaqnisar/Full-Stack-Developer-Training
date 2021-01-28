@@ -1,60 +1,6 @@
+package com.programs.AccountDetails;
+
 import java.util.Scanner;
-
-class Account {
-    private int accountId, balance;
-    private String accountType;
-
-    public Account() {
-    }
-
-    public Account(int accountId) {
-        this.accountId = accountId;
-    }
-
-    public Account(int accountId, int balance) {
-        this.accountId = accountId;
-        this.balance = balance;
-    }
-
-    public Account(int accountId, int balance, String accountType) {
-        this.accountId = accountId;
-        this.balance = balance;
-        this.accountType = accountType;
-    }
-
-    public int getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(int accountId) {
-        this.accountId = accountId;
-    }
-
-    public int getBalance() {
-        return balance;
-    }
-
-    public void setBalance(int balance) {
-        this.balance = balance;
-    }
-
-    public String getAccountType() {
-        return accountType;
-    }
-
-    public void setAccountType(String accountType) {
-        this.accountType = accountType;
-    }
-
-    public boolean withdraw(int amount) {
-        if (balance >= amount) {
-            System.out.println("Balance amount after withdraw: " + (getBalance() - amount));
-            return true;
-        }
-        System.out.println("Sorry!!! No enough balance");
-        return false;
-    }
-}
 
 public class AccountDetails {
     static Scanner sc = new Scanner(System.in);
