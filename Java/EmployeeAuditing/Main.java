@@ -20,15 +20,23 @@ public class Main {
 
 
     public static EmployeeAudit findEmployee() {
-        return (double salary) -> {
+        EmployeeAudit audit = (double salary) -> {
             ArrayList<String> list = new ArrayList<>();
             employeeMap.forEach((key, value) -> {
                 if (value <= salary) {
                     list.add(key);
                 }
             });
+            if (list.isEmpty()) {
+                System.out.println("No Employee Found");
+            } else {
+                for (String name : list) {
+                    System.out.println(name);
+                }
+            }
             return list;
         };
+        return audit;
     }
 
 
@@ -43,9 +51,8 @@ public class Main {
         Main main = new Main();
         employeeMap = new HashMap<>();
         Scanner sc = new Scanner(System.in);
-        int input;
         printMenu();
-        input = sc.nextInt();
+        int input = sc.nextInt();
         do {
             switch (input) {
                 case 1:
@@ -56,16 +63,10 @@ public class Main {
                     main.addEmployeeDetails(employeeName, employeeSalary);
                     break;
                 case 2:
+                    System.out.println("Enter the salary to be searched");
                     double inputSalary = sc.nextDouble();
-                    EmployeeAudit sampleAudit = findEmployee();
-                    ArrayList<String> names = sampleAudit.fetchEmployeeDetails(inputSalary);
-                    if (names.isEmpty()) {
-                        System.out.println("No Employee Found");
-                    } else {
-                        for (String name : names) {
-                            System.out.println(name);
-                        }
-                    }
+                    EmployeeAudit sampleAudit = Main.findEmployee();
+                    sampleAudit.fetchEmployeeDetails(inputSalary);
                     break;
                 case 3:
                     System.out.println("Let's complete the session");
