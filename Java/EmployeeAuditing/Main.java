@@ -20,7 +20,7 @@ public class Main {
 
 
     public static EmployeeAudit findEmployee() {
-        EmployeeAudit audit = (double salary) -> {
+        return (double salary) -> {
             ArrayList<String> list = new ArrayList<>();
             employeeMap.forEach((key, value) -> {
                 if (value <= salary) {
@@ -36,7 +36,6 @@ public class Main {
             }
             return list;
         };
-        return audit;
     }
 
 
