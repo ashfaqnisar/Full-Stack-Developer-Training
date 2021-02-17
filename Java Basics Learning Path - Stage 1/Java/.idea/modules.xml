@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hands_On/Hands_On.iml" filepath="$PROJECT_DIR$/Hands_On/Hands_On.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Basics Learning Path - Stage 1.iml" filepath="$PROJECT_DIR$/Java Basics Learning Path - Stage 1.iml" />
+    </modules>
+  </component>
+</project>
