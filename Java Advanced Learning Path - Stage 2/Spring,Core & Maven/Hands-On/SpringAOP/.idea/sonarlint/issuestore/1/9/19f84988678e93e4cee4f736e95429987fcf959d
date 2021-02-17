@@ -1,0 +1,15 @@
+
+`
+java:S1192"JDefine a constant instead of duplicating this literal "Enter pin" 3 times.(Òú‹ı
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğÑú«
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢õ¯áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦¬ªõùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Òú‹ı
+S	java:S106""9Replace this use of System.out or System.err by a logger.(êãæ£ÿÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Òú‹ı
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(×õÃÉıÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(§¬±»ùÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(¢â¼
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(®ÄÀÊ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ÄÊÃ
+>	java:S108=")Either remove or fill this block of code.(”ı¾
